@@ -14,7 +14,7 @@ workflows:
           #- other
         vars:
           XCODE_PROJECT: "Crossy Chicken - Eggs Mission.xcodeproj" # <-- Put the name of your workspace here.
-          XCODE_SCHEME: "CrossyChicken - Eggs Mission" # <-- Put the name of your scheme here.
+          XCODE_SCHEME: "Crossy Chicken - Eggs Mission" # <-- Put the name of your scheme here.
           BUNDLE_ID: "com.eggsmission.cross" # <-- Put your Bundle Id here.
           APP_STORE_APPLE_ID: 6742513917 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
         xcode: latest # <-- set to specific version e.g. 14.3, 15.0 to avoid unexpected updates.
